@@ -1,0 +1,85 @@
+body{
+    background: cornsilk;
+}
+
+.post-view{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    margin-left: 860px;
+    display: none;
+   
+}
+
+form, select{
+width: 190px;  
+margin-left: 5px;  
+}
+
+form, textarea{
+    width: 300px;
+    height: 90px;
+    margin-top: 3px
+
+}
+
+form, input{
+    margin-left: 40px;
+    margin-top: 3px;
+    
+    
+}
+
+svg{
+ margin-left: 420px;
+ margin-top: -60px;
+}
+
+.cuadro-texA{
+    background-color: #ACE8C3;
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+   
+    position: absolute;
+    top: 0%;
+    left: -50px;
+    right: 350px;
+   
+}
+
+.cuadro-texA1{
+    background-color: #ACE8C3;
+    width: 90px;
+    height: 30px;
+   
+    position: absolute;
+    top: 97px;
+    left: -50px;
+    right: 300px;
+
+}
+
+.cuadro-texA2{
+    background-color: #ACE8C3;
+    width: 90px;
+    height: 30px;
+
+    position: absolute;
+    top: 130px;
+    left: -50px;
+
+}
+
+.publicar-p{
+    font-size: 200%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 2%;
+    margin-left: 40%;
+    display: flex;
+}
+
