@@ -72,3 +72,16 @@ body{
    top: 20%;
     
 }
+
+.form-1{
+    position: absolute;
+    background-color:white;
+    text-align: center;
+    width: 30%;
+    left: 60%; 
+    top: 180px;
+    height: 300px;
+    display: none;
+ 
+    
+}
