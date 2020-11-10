@@ -1,85 +1,74 @@
 body{
-    background: cornsilk;
+    background: #f2f2f2;
 }
 
-.post-view{
-    width: 400px;
-    height: 400px;
+.bg-light{
+    background: #00035E;
+}
+
+.navbar{
+   height: 70px;
+
+}
+.form-control{
+    border: 0;
     position: absolute;
-    top: 5%;
-    left: 0%;
-    margin-left: 860px;
-    display: none;
-   
-}
-
-form, select{
-width: 190px;  
-margin-left: 5px;  
-}
-
-form, textarea{
+    border-radius: 10px;
     width: 300px;
-    height: 90px;
-    margin-top: 3px
-
-}
-
-form, input{
-    margin-left: 40px;
-    margin-top: 3px;
     
+ 
     
 }
 
-svg{
- margin-left: 420px;
- margin-top: -60px;
+.form-inline{
+    position: absolute;
+    left: 50%;
+    background-color: #5C5EB5;
+    border-radius: 10px;
+    width: 300px;
+  
 }
 
-.cuadro-texA{
-    background-color: #ACE8C3;
-    width: 90px;
-    height: 90px;
-    margin-top: 5px;
-   
-    position: absolute;
-    top: 0%;
-    left: -50px;
-    right: 350px;
+#place::placeholder{
+    color:white;
+
    
 }
 
-.cuadro-texA1{
-    background-color: #ACE8C3;
-    width: 90px;
-    height: 30px;
-   
+.fa-noti{
     position: absolute;
-    top: 97px;
-    left: -50px;
-    right: 300px;
-
+    left: 66.6%;
 }
 
-.cuadro-texA2{
-    background-color: #ACE8C3;
-    width: 90px;
-    height: 30px;
-
+.fa-comen{
     position: absolute;
-    top: 130px;
-    left: -50px;
-
+    left: 63%;
 }
 
-.publicar-p{
-    font-size: 200%;
+.fa-us{
     position: absolute;
-    top: 0%;
-    left: 0%;
-    margin-top: 2%;
-    margin-left: 40%;
-    display: flex;
+    left: 70%;
 }
 
+.nam-user{
+    position: absolute;
+    left: 72%;
+    top: 30%
+}
+
+.navbar{
+    width: 100vw;
+}
+
+.colap{
+    position: absolute;
+    left: 90%;
+}
+
+.table{
+   position: absolute;
+   width: 80%;
+   left: 10%;
+   top: 20%;
+    
+}
