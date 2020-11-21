@@ -12,9 +12,9 @@ $comentada= "Javier45 10 de noviebre";
 
 
 $server ="localhost";
-$database= "hogama";
-$user= "Eliezer";
-$pass= "Gerardo";
+$database= "hoga";
+$user= "Eli";
+$pass= "root";
 
 $conn = mysqli_connect($server, $user,$pass,$database);
 
@@ -22,12 +22,12 @@ if(!$conn){
     die("Connection failed: ".mysqli_connect_error());
 }
 
-echo "Connect successfully";
+
 
 $sql="INSERT INTO posts (post_content,post_res,post_view,post_ulres) VALUES ('$contenido','5','4','$comentada')";
 
 if(mysqli_query($conn,$sql)){
-    echo "correcto";
+    
 }else{
     echo"Error: ".$sql . "<br>". mysqli_error($conn);
 }
@@ -84,8 +84,7 @@ mysqli_close($conn)
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-
+            </but
             <h3 class="fa-noti"><i class="fa fa-bell fa-x4" style="color: white;" aria-hidden="true"></i></h3>
             <h3 class="fa-comen"><i class="fa fa-commenting-o" style="color: white;" aria-hidden="true"></i></h3>
             <h3 class="fa-us"><i class="fa fa-user" style="color: white;" aria-hidden="true"></i></h3>
@@ -114,19 +113,19 @@ mysqli_close($conn)
                 </thead>
                 <tbody class="user-waitlist">
 
-                    ¿<?php
+                    <?php
 
 $server ="localhost";
-$database= "hogama";
-$user= "Eliezer";
-$pass= "Gerardo";
+$database= "hoga";
+$user= "Eli";
+$pass= "root";
 
 $conn2 = mysqli_connect($server, $user,$pass,$database);
 if(!$conn2){
     die("Connection failed: ".mysqli_connect_error());
 }
 
-echo "Connect successfully";
+
 
                 $sql2="SELECT * FROM posts";
                 $resul= mysqli_query($conn2,$sql2);
@@ -148,7 +147,7 @@ echo "Connect successfully";
                 }
 
                 if(mysqli_query($conn2,$sql2)){
-                    echo "correcto";
+                    
                 }else{
                     echo"Error: ".$sql2 . "<br>". mysqli_error($conn2);
                 }
